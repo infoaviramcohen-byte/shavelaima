@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>מדריך קנייה בעליאקספרס | שווה לאמא</title>
+<meta name="description" content="איך קונים בעליאקספרס בלי הפתעות: חשבון, כתובת, מידות, מכס, משלוח והחזרים.">
+<meta property="og:title" content="מדריך: איך קונים בעליאקספרס בלי הפתעות">
+<meta property="og:image" content="https://shavelaima.com/img/og.jpg">
+<meta name="theme-color" content="#FCBF04">
+<link rel="icon" href="../img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap">
+<style>:root{--bg:#FCBF04;--ink:#161715;--accent:#F14B2F;--soft:#FFE38A;--page:#F4F3EF;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:#161715;font:400 17px/1.6 "Rubik",system-ui,sans-serif;direction:rtl}
+.wrap{max-width:760px;margin:0 auto;padding-inline:16px;padding-block:0 40px}
+header{background:var(--bg);color:var(--ink);text-align:center;padding:30px 16px 34px;border-radius:0 0 32px 32px}
+header img{width:96px;height:96px;border-radius:50%;display:block;margin:0 auto 10px}
+header h1{font:900 clamp(28px,7vw,40px)/1.15 "Rubik",sans-serif;margin:0 0 6px;text-wrap:balance}
+header p{margin:0;font-weight:500;opacity:.85}
+.toc{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 6px}
+.toc a{background:#fff;border:1px solid #e4e2dc;border-radius:999px;padding:6px 12px;font-size:14px;font-weight:600;text-decoration:none;color:#161715}
+.step{background:#fff;border-radius:24px;padding:22px;margin-top:16px;box-shadow:0 2px 0 rgba(0,0,0,.04);display:grid;grid-template-columns:1fr 250px;gap:22px;align-items:center;break-inside:avoid}
+.step>div{min-width:0}
+.num{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;margin-bottom:6px}
+h2{font:800 22px/1.25 "Rubik",sans-serif;margin:0 0 8px}
+.step p{margin:0 0 8px}
+.step ul{margin:0;padding-inline-start:20px}
+.step li{margin-bottom:4px}
+.tip{background:var(--soft);border-radius:14px;padding:10px 14px;font-size:15px;margin-top:10px}
+.warn{background:#FFF1EC;border-radius:14px;padding:10px 14px;font-size:15px;margin-top:10px}
+/* phone mockups */
+.phone{width:250px;max-width:100%;margin-inline:auto;background:#1b1b1b;border-radius:34px;padding:10px;box-shadow:0 14px 30px rgba(0,0,0,.18)}
+.scr{background:#f6f6f4;border-radius:26px;overflow:hidden;min-height:300px;font-size:13px;line-height:1.4;position:relative}
+.bar{background:#fff;padding:12px 14px 10px;font-weight:700;font-size:14px;border-bottom:1px solid #ececea;display:flex;justify-content:space-between;align-items:center}
+.row{background:#fff;margin:8px 10px;border-radius:12px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.row b{font-weight:600}
+.row span{color:#666;white-space:nowrap}
+.hl{outline:3px solid var(--accent);outline-offset:-1px;position:relative}
+.dot{position:absolute;top:-10px;left:-10px;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font:800 12px/22px "Rubik",sans-serif;text-align:center;z-index:2}
+.field{background:#fff;margin:8px 10px;border-radius:10px;padding:7px 10px;border:1px solid #e3e3e0;direction:ltr;text-align:left}
+.field small{display:block;color:#888;font-size:10px}
+.pimg{height:130px;background-size:cover;background-position:left center}
+.pbody{background:#fff;padding:10px 12px;position:relative}
+.price{font:800 20px/1.2 "Rubik",sans-serif}
+.price s{font:400 12px "Rubik",sans-serif;color:#999;margin-inline-start:6px}
+.meta{display:flex;gap:16px;color:#444;margin-top:4px;flex-wrap:wrap}
+.chips{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.chip{border:1px solid #d8d8d4;border-radius:8px;padding:3px 8px;background:#fff}
+.chip.on{border:2px solid var(--accent);font-weight:700}
+.revs{display:flex;gap:6px;margin-top:8px}
+.revs i{width:42px;height:42px;border-radius:8px;background-size:cover;background-position:center;display:block}
+table{border-collapse:collapse;width:calc(100% - 20px);margin:8px 10px;background:#fff;border-radius:10px;overflow:hidden;font-size:12px}
+td,th{padding:6px;text-align:center;border-bottom:1px solid #eee}
+th{background:#fafaf8}
+tr.on td{background:var(--soft);font-weight:700}
+.plugs{display:flex;gap:8px;margin:10px}
+.plug{flex:1;background:#fff;border-radius:12px;padding:8px 4px;text-align:center;font-weight:700;border:2px solid transparent}
+.plug.ok{border-color:#1b9c55}
+.plug.no{opacity:.45}
+.plug svg{display:block;margin:0 auto 4px}
+.cart{background:#fff;margin:8px 10px;border-radius:12px;padding:10px 12px}
+.cart .t{display:flex;justify-content:space-between;font-weight:700}
+.ok{color:#1b9c55}.bad{color:#d33b1f}
+.badge{display:inline-block;border-radius:6px;padding:1px 6px;font-size:11px;font-weight:700;color:#fff}
+.timeline{margin:12px 16px}
+.tl{display:flex;gap:10px;align-items:flex-start;padding-bottom:12px;position:relative}
+.tl::before{content:"";position:absolute;right:6px;top:14px;bottom:0;width:2px;background:#ddd}
+.tl:last-child::before{display:none}
+.tl i{width:14px;height:14px;border-radius:50%;background:#ccc;flex:none;margin-top:3px;position:relative;z-index:1}
+.tl.done i{background:var(--accent)}
+.tl small{display:block;color:#888}
+.btn2{display:block;margin:10px;background:var(--accent);color:#fff;text-align:center;border-radius:12px;padding:10px;font-weight:800}
+.btn3{display:block;margin:10px;background:#fff;color:#161715;text-align:center;border-radius:12px;padding:10px;font-weight:700;border:1px solid #ddd}
+.wa{background:#E7F7EE;border-radius:14px;margin:10px;padding:10px 12px;white-space:pre-line;color:#0B2B1A}
+.wa a{color:#0a66c2;text-decoration:underline}
+.pay{display:flex;gap:8px;margin:10px}
+.pay div{flex:1;background:#fff;border-radius:12px;padding:12px 6px;text-align:center;font-weight:700}
+footer{text-align:center;margin-top:26px;font-size:14px;color:#666}
+@media (max-width:640px){.step{grid-template-columns:1fr}.phone{width:240px}}
+@media print{body{background:#fff}.toc{display:none}.step{box-shadow:none;border:1px solid #eee}header{border-radius:0}@page{margin:10mm}}
+</style>
+</head>
+<body>
+<header>
+  <img src="../img/logo.png" alt="שווה לאמא" width="96" height="96">
+  <h1>איך קונים בעליאקספרס בלי הפתעות</h1>
+  <p>9 צעדים קצרים, מהחשבון ועד החבילה בבית</p>
+</header>
+<main class="wrap">
+  <nav class="toc"><a href="#s1">1. פותחים חשבון</a><a href="#s2">2. כתובת למשלוח</a><a href="#s3">3. לפני שמוסיפים לעגלה, בודקים 4 דברים</a><a href="#s4">4. מידות ותקעים</a><a href="#s5">5. מכס ומע״מ</a><a href="#s6">6. משלוח ומעקב</a><a href="#s7">7. תשלום בטוח</a><a href="#s8">8. אם משהו לא בסדר</a><a href="#s9">9. איך קונים מהדילים שלנו</a></nav>
+  <section class="step" id="s1"><div><span class="num">1</span><h2>פותחים חשבון</h2><p>מורידים את אפליקציית AliExpress ונרשמים עם מייל או חשבון גוגל.</p>
+<p>בהגדרות בוחרים:</p><ul><li>שפה: עברית</li><li>מטבע: ₪</li><li>משלוח ל: ישראל</li></ul></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>הגדרות</span><span>⚙️</span></div>
+<div class="row hl"><span class="dot">1</span><b>שפה</b><span>עברית</span></div>
+<div class="row hl"><span class="dot">2</span><b>מטבע</b><span>₪ ILS</span></div>
+<div class="row hl"><span class="dot">3</span><b>משלוח ל</b><span>🇮🇱 ישראל</span></div>
+<div class="row"><b>התראות</b><span>›</span></div>
+<div class="row"><b>פרטיות</b><span>›</span></div></div></div></section><section class="step" id="s2"><div><span class="num">2</span><h2>כתובת למשלוח</h2><ul><li>כותבים את הכתובת <b>באנגלית</b></li><li><b>מיקוד של 7 ספרות</b> הוא חובה. בודקים אותו באתר דואר ישראל</li><li>מספר נייד, כדי לקבל עדכונים על החבילה</li></ul>
+<div class="tip">💡 בלי מיקוד נכון חבילות נתקעות או חוזרות לשולח.</div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>כתובת חדשה</span><span>📍</span></div>
+<div class="field"><small>Full name</small>Israel Israeli</div>
+<div class="field"><small>Street, number, apt</small>Herzl 12, Apt 4</div>
+<div class="field"><small>City</small>Tel Aviv</div>
+<div class="field hl"><span class="dot">!</span><small>ZIP code (7 digits)</small>6xxxxxx</div>
+<div class="field"><small>Mobile</small>+972 5x xxx xxxx</div></div></div></section><section class="step" id="s3"><div><span class="num">3</span><h2>לפני שמוסיפים לעגלה, בודקים 4 דברים</h2><ul><li><b>דירוג</b> המוצר והמוכר: 4.6 ומעלה זה טוב</li><li><b>כמה נמכרו</b>: הרבה מכירות זה סימן טוב</li><li><b>ביקורות עם תמונות</b> של קונים אמיתיים</li><li><b>האפשרות הנכונה</b>: צבע, מידה או דגם</li></ul>
+<div class="warn">⚠️ המחיר שמופיע בהתחלה הוא לפעמים של האפשרות הכי זולה. בודקים את המחיר אחרי שבוחרים.</div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="pimg" style="background-image:url(../img/products.jpg)"></div>
+<div class="pbody"><div class="price">₪112<s>₪224</s></div>
+<div style="font-weight:600;margin-top:2px">מנשא תינוק ארגונומי</div>
+<div class="meta"><span class="hl" style="border-radius:6px;padding:0 4px 0 14px"><span class="dot">1</span>★ 4.8</span><span class="hl" style="border-radius:6px;padding:0 4px 0 14px"><span class="dot">2</span>5,000+ נמכרו</span></div>
+<div class="revs hl" style="border-radius:8px;padding:4px"><span class="dot">3</span><i style="background-image:url(../img/products.jpg);background-position:10% 50%"></i><i style="background-image:url(../img/products.jpg);background-position:30% 50%"></i><i style="background-image:url(../img/products.jpg);background-position:50% 50%"></i></div>
+<div class="chips hl" style="border-radius:8px;padding:4px"><span class="dot">4</span><span class="chip">אפור</span><span class="chip on">בז׳</span><span class="chip">כחול</span></div></div></div></div></section><section class="step" id="s4"><div><span class="num">4</span><h2>מידות ותקעים</h2><p><b>בגדים ונעליים:</b> המידות קטנות יותר. מודדים בבית ומשווים לטבלת המידות בס״מ. בספק לוקחים מידה אחת למעלה.</p>
+<p><b>מוצרי חשמל:</b> בוחרים תקע <b>EU</b> (שני פינים עגולים). הוא מתאים לשקע בישראל.</p></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>טבלת מידות</span><span>📏</span></div>
+<table><tr><th>מידה</th><th>חזה (ס״מ)</th><th>אורך (ס״מ)</th></tr><tr><td>M</td><td>96</td><td>68</td></tr><tr class="on"><td>L</td><td>102</td><td>70</td></tr><tr><td>XL</td><td>108</td><td>72</td></tr></table>
+<div class="bar" style="border-top:1px solid #ececea"><span>סוג תקע</span><span>🔌</span></div>
+<div class="plugs"><div class="plug ok"><svg width="40" height="34" viewBox="0 0 40 34"><rect x="2" y="2" width="36" height="30" rx="8" fill="#eee"/><g fill="#333"><circle cx="14" cy="18" r="3"/><circle cx="26" cy="18" r="3"/></g></svg>EU ✓</div><div class="plug no"><svg width="40" height="34" viewBox="0 0 40 34"><rect x="2" y="2" width="36" height="30" rx="8" fill="#eee"/><g fill="#333"><rect x="12" y="12" width="3" height="10" rx="1"/><rect x="25" y="12" width="3" height="10" rx="1"/></g></svg>US</div><div class="plug no"><svg width="40" height="34" viewBox="0 0 40 34"><rect x="2" y="2" width="36" height="30" rx="8" fill="#eee"/><g fill="#333"><rect x="18" y="8" width="4" height="9" rx="1"/><rect x="10" y="20" width="9" height="4" rx="1"/><rect x="21" y="20" width="9" height="4" rx="1"/></g></svg>UK</div></div></div></div></section><section class="step" id="s5"><div><span class="num">5</span><h2>מכס ומע״מ</h2><p>הזמנה <b>עד 75$</b> פטורה ממכס וממע״מ.</p><p>מעל 75$ משלמים מע״מ על <b>כל</b> החבילה, לא רק על ההפרש.</p>
+<div class="tip">💡 הזמנה גדולה? מפצלים לכמה הזמנות קטנות.</div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>עגלה</span><span>🛒</span></div>
+<div class="cart"><div class="t"><span>הזמנה אחת</span><span>$92</span></div><div class="bad" style="margin-top:4px">✗ מעל 75$, משלמים מע״מ על הכל</div></div>
+<div style="text-align:center;font-weight:800;margin:6px 0">⬇️ מפצלים ⬇️</div>
+<div class="cart"><div class="t"><span>הזמנה 1</span><span>$48</span></div><div class="ok" style="margin-top:4px">✓ פטור</div></div>
+<div class="cart"><div class="t"><span>הזמנה 2</span><span>$44</span></div><div class="ok" style="margin-top:4px">✓ פטור</div></div></div></div></section><section class="step" id="s6"><div><span class="num">6</span><h2>משלוח ומעקב</h2><p>בעמוד המוצר רואים את זמן ההגעה המשוער <b>לפני</b> התשלום. עדיף משלוח עם מעקב.</p>
+<p>עוקבים אחרי החבילה ב: <b>החשבון שלי ← הזמנות ← מעקב</b>.</p></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>מעקב משלוח</span><span>🚚</span></div>
+<div class="timeline">
+<div class="tl done"><i></i><div><b>ההזמנה התקבלה</b><small>המוכר מכין את החבילה</small></div></div>
+<div class="tl done"><i></i><div><b>נשלח</b><small>יצא מהמחסן</small></div></div>
+<div class="tl done"><i></i><div><b>הגיע לישראל</b><small>בדרך לסניף או לנקודת איסוף</small></div></div>
+<div class="tl"><i></i><div><b>נמסר</b><small>קיבלתם הודעה לנייד</small></div></div></div></div></div></section><section class="step" id="s7"><div><span class="num">7</span><h2>תשלום בטוח</h2><p>משלמים בכרטיס אשראי או PayPal, <b>רק דרך עליאקספרס</b>.</p>
+<div class="warn">⚠️ אף פעם לא משלמים למוכר מחוץ לאתר, גם אם הוא מבקש בצ׳אט.</div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>תשלום</span><span>🔒</span></div>
+<div class="pay"><div>💳<br>אשראי</div><div>🅿️<br>PayPal</div></div>
+<div class="row"><b>סה״כ לתשלום</b><span>₪112</span></div>
+<span class="btn2">תשלום מאובטח</span>
+<div class="row" style="background:#FFF1EC"><b class="bad">✗ העברה ישירה למוכר</b></div></div></div></section><section class="step" id="s8"><div><span class="num">8</span><h2>אם משהו לא בסדר</h2><p>מצלמים <b>וידאו של פתיחת החבילה</b>.</p>
+<p>לא הגיע, הגיע פגום או לא כמו בתמונה? פותחים <b>מחלוקת (Dispute)</b> בעמוד ההזמנה. יש הגנת קונה, ואפשר לקבל החזר.</p>
+<div class="warn">⚠️ לא מאשרים קבלה של חבילה לפני שבדקתם אותה.</div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>פרטי הזמנה</span><span>📦</span></div>
+<div class="row"><b>מנשא תינוק ארגונומי</b></div>
+<div class="row"><b>סטטוס</b><span>נמסר</span></div>
+<span class="btn3">אישור קבלה</span>
+<span class="btn2 hl" style="position:relative"><span class="dot">!</span>פתיחת מחלוקת</span>
+<div class="row"><b>🎥 וידאו פתיחה</b><span class="ok">מצורף ✓</span></div></div></div></section><section class="step" id="s9"><div><span class="num">9</span><h2>איך קונים מהדילים שלנו</h2><p>לוחצים על הקישור בפוסט ← המוצר נפתח באפליקציה ← בודקים שזה הדגם הנכון ← קונים.</p>
+<div class="tip">💡 המחיר נקבע על ידי המוכר ויכול להשתנות, אז דיל טוב לא כדאי לדחות.</div></div>
+<div class="phone" aria-hidden="true"><div class="scr"><div class="bar"><span>שווה לאמא</span><span>📣</span></div>
+<div class="wa">מנשא תינוק ארגונומי
+
+בארץ: 349 ₪
+בעלי: 112 ₪
+
+✅ למה בחרנו: דירוג גבוה, הרבה קונים
+👈 <a>לקישור</a></div>
+<div style="text-align:center;font-size:22px">⬇️</div>
+<span class="btn2">פתיחה באפליקציה</span></div></div></section>
+  <footer>שווה לאמא · shavelaima.com<br>המסכים במדריך הם איור להמחשה, והאפליקציה עצמה עשויה להיראות קצת אחרת.</footer>
+</main>
+</body>
+</html>
