@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /join-b/
+
+Sitemap: https://shavelaima.com/sitemap.xml
