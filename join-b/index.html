@@ -1,4 +1,8 @@
-<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8">
+<!doctype html><html lang="he" dir="rtl"><head>
+<!-- Google tag (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-KSTKHQN8"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','GTM-KSTKHQN8');</script>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>שווה לאמא | הצטרפות</title><meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +49,7 @@ fbq('init','1895010951663413');fbq('track','PageView');fbq('trackCustom','JoinVi
 <div class="hintbox" id="hint" hidden><div>פותחים לך את וואטסאפ…<br>בוואטסאפ שנפתח, לחצי &quot;הצטרפות לקבוצה&quot; וזהו 💛<a href="https://chat.whatsapp.com/DiWkfT10aMA1jx6AGPUe32">לא נפתח? לחצו כאן</a><a href="#" id="hintclose">סגירה</a></div></div>
 <script>
 (function(){var code='DiWkfT10aMA1jx6AGPUe32',web='https://chat.whatsapp.com/'+code,hint=document.getElementById('hint');
-function go(ev){ev.preventDefault();try{window.fbq&&fbq('track','Lead',{content_name:document.title});fbq('trackCustom','JoinTapB')}catch(e){}
+function go(ev){ev.preventDefault();try{window.fbq&&fbq('track','Lead',{content_name:document.title});if(window.gtag)gtag('event','join_tap',{page_title:document.title});fbq('trackCustom','JoinTapB')}catch(e){}
  hint.hidden=false;var t0=Date.now();location.href='whatsapp://chat?code='+code;
  setTimeout(function(){if(document.visibilityState==='visible'&&Date.now()-t0<2500)location.href=web},1200);}
 [].forEach.call(document.querySelectorAll('[data-join]'),function(a){a.addEventListener('click',go)});
