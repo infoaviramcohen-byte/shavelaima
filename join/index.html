@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="he" dir="rtl">
 <head>
-<!-- Google tag (GA4) -->
-<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KSTKHQN8"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());</script>
-
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>שווה לאמא | הצטרפות לקהילה</title>
@@ -54,10 +50,13 @@ li svg{flex:none;width:22px;height:22px;margin-top:2px}
 <script>(function(){var v,q=location.search.match(/[?&]v=(a|b)/i);try{v=localStorage.getItem('jv')}catch(e){}
 v=q?q[1].toUpperCase():'B';try{localStorage.setItem('jv',v)}catch(e){}
 if(v==='B'){window.__goB=1;location.replace('../join-b/'+location.search+location.hash)}})();</script>
+<!-- Google tag (GA4) -->
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KSTKHQN8"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());</script>
 <!-- Meta Pixel -->
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init','1895010951663413');if(!window.__goB){fbq('track','PageView');fbq('trackCustom','JoinViewA')}
-document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('[data-join]');if(!a)return;fbq('track','Lead',{content_name:document.title});if(window.gtag)gtag('event','join_tap',{page_title:document.title});fbq('trackCustom','JoinTapA');
+document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('[data-join]');if(!a)return;fbq('track','Lead',{content_name:document.title});fbq('trackCustom','JoinTapA');if(window.gtag)gtag('event','join_tap',{page_title:document.title});
 var h=a.getAttribute('href');if(!h||h.charAt(0)==='#'||ev.metaKey||ev.ctrlKey)return;ev.preventDefault();
 /* give the Lead hit time to leave before the phone jumps to the WhatsApp app */setTimeout(function(){location.href=h},350);},true);</script>
 <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1895010951663413&ev=PageView&noscript=1"/></noscript>
