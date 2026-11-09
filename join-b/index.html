@@ -81,7 +81,7 @@ fbq('init','1895010951663413');fbq('track','PageView');fbq('trackCustom','JoinVi
 <div class="hintbox" id="hint" hidden><div>פותחים לך את וואטסאפ…<br>בוואטסאפ שנפתח, לחצי &quot;הצטרפות לקבוצה&quot; וזהו 💛<a href="https://chat.whatsapp.com/DiWkfT10aMA1jx6AGPUe32">לא נפתח? לחצו כאן</a><a href="#" id="hintclose">סגירה</a></div></div>
 <script>
 (function(){var code='DiWkfT10aMA1jx6AGPUe32',web='https://chat.whatsapp.com/'+code,hint=document.getElementById('hint');
-function go(ev){ev.preventDefault();try{window.fbq&&fbq('track','Lead',{content_name:document.title});if(window.gtag)gtag('event','join_tap',{page_title:document.title});fbq('trackCustom','JoinTapB')}catch(e){}
+function go(ev){ev.preventDefault();try{window.fbq&&fbq('track','Lead',{content_name:document.title});if(window.gtag)gtag('event','join_tap',{page_title:document.title});window.dataLayer&&dataLayer.push({event:'join_tap',page_title:document.title});fbq('trackCustom','JoinTapB')}catch(e){}
  hint.hidden=false;
  /* straight to the https invite (9 Nov), 350ms lets the Lead hit leave first */
  setTimeout(function(){location.href=web},350);}
