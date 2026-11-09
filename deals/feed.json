@@ -1,7 +1,7 @@
 {
  "site": "https://shavelaima.com",
  "currency": "ILS",
- "count": 12,
+ "count": 13,
  "deals": [
   {
    "id": "2026-11-08-ima-1",
@@ -18,7 +18,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-1,000 נמכרו, מעקב תנועה ודיבור דו כיווני",
    "warn": "זו מצלמה שמתברגת לבית מנורה רגיל (E27) ועובדת דרך אפליקציה בטלפון, אין מסך נפרד כמו בבייבי מוניטור. צריך WiFi בבית.",
    "link": "https://s.click.aliexpress.com/e/_c4DT88Fz",
-   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-1.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-1.jpg",
+   "pid": "1005008430157207",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-08-ima-1.webp"
   },
   {
    "id": "2026-11-08-ima-2",
@@ -35,7 +37,9 @@
    "why": "96.8% ביקורות חיוביות, בד רך עם כובע בצורת חיה",
    "warn": "יש כמה דגמים וגדלים, המחיר לאפשרות הזולה. לבדוק את המידה לפני שמוסיפים לעגלה.",
    "link": "https://s.click.aliexpress.com/e/_c4oUI4vt",
-   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-2.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-2.jpg",
+   "pid": "1005011819461520",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-08-ima-2.webp"
   },
   {
    "id": "2026-11-08-ima-3",
@@ -52,7 +56,28 @@
    "why": "96.3% ביקורות חיוביות, קש וידיות כפולות, אטומה לנזילות לפי היצרן",
    "warn": "המחיר לכוס אחת בצבע הזול ביותר. את הקש שוטפים היטב אחרי כל שימוש.",
    "link": "https://s.click.aliexpress.com/e/_c4MWbqRV",
-   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-3.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-3.jpg",
+   "pid": "1005005791921398",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-08-ima-3.webp"
+  },
+  {
+   "id": "2026-11-08-ima-4",
+   "name": "מקרן כוכבים אסטרונאוט לחדר הילדים",
+   "tag": "שינה",
+   "store": "aliexpress",
+   "date": "2026-11-08",
+   "israel": false,
+   "il_text": "מקרני כוכבים לחדר ילדים בארץ: מ-45 ₪",
+   "il_from": 45.0,
+   "ali": 31.0,
+   "ali_note": "מחיר רגיל לאפשרות הזולה, בזמן הפרסום",
+   "new_user_price": false,
+   "why": "98% ביקורות חיוביות, יותר מ-1,400 נמכרו, מקרין כוכבים וערפילית על התקרה",
+   "warn": "יש דגם עם רמקול בלוטות׳ ודגם בלי, המחיר לזול מביניהם. עובד מחובר ל-USB.",
+   "link": "https://s.click.aliexpress.com/e/_c4NuF3Ph",
+   "img": "https://shavelaima.com/deals/img/2026-11-08-ima-4.jpg",
+   "pid": "1005007345675038",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-08-ima-4.webp"
   },
   {
    "id": "2026-11-06-ima-1",
@@ -69,7 +94,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-5,500 נמכרו",
    "warn": "19 ₪ זה הגודל הקטן. 16 אינץ׳ עולה בערך פי שניים. מוחקים בלחיצה, אי אפשר לשמור ציור.",
    "link": "https://s.click.aliexpress.com/e/_c2w5QAfZ",
-   "img": "https://shavelaima.com/deals/img/2026-11-06-ima-1.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-06-ima-1.jpg",
+   "pid": "1005010155286595",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-06-ima-1.webp"
   },
   {
    "id": "2026-11-06-ima-2",
@@ -86,7 +113,9 @@
    "why": "98% ביקורות חיוביות, 2 ראשי סיליקון בגדלים שונים",
    "warn": "35 ₪ זה הדגם הבסיסי, יש גרסה יקרה יותר. מתחילים בעוצמה נמוכה, ובכל ספק מתייעצים עם רופא הילדים.",
    "link": "https://s.click.aliexpress.com/e/_c3KiGo9z",
-   "img": "https://shavelaima.com/deals/img/2026-11-06-ima-2.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-06-ima-2.jpg",
+   "pid": "1005009960311456",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-06-ima-2.webp"
   },
   {
    "id": "2026-11-06-ima-3",
@@ -103,7 +132,9 @@
    "why": "98% ביקורות חיוביות, מודד בלי להעיר את הילד",
    "warn": "לא מכשיר רפואי מאושר בארץ. לחום גבוה או מדידה חשובה, מאמתים במדחום רגיל.",
    "link": "https://s.click.aliexpress.com/e/_c3k0OUAP",
-   "img": "https://shavelaima.com/deals/img/2026-11-06-ima-3.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-06-ima-3.jpg",
+   "pid": "1005010332289751",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-06-ima-3.webp"
   },
   {
    "id": "2026-11-05-ima-1",
@@ -120,7 +151,9 @@
    "why": "99% ביקורות חיוביות, כמעט 300 נמכרו",
    "warn": "61 ₪ זה העובי הדק והמידה הקטנה (70-80 ס״מ). יש 3 עוביים, לחורף בוחרים את העבה (Thick cotton), שעולה עד כ-93 ₪ לפי מידה.",
    "link": "https://s.click.aliexpress.com/e/_c3yUI7FZ",
-   "img": "https://shavelaima.com/deals/img/2026-11-05-ima-1.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-05-ima-1.jpg",
+   "pid": "1005008896550642",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-05-ima-1.webp"
   },
   {
    "id": "2026-11-05-ima-2",
@@ -137,7 +170,9 @@
    "why": "98% ביקורות חיוביות, כ-600 נמכרו",
    "warn": "יש 4 דגמים, המחיר לדגם Switch Board C שבתמונה. יש חלקים קטנים, משחק בהשגחה.",
    "link": "https://s.click.aliexpress.com/e/_c36hDhoT",
-   "img": "https://shavelaima.com/deals/img/2026-11-05-ima-2.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-05-ima-2.jpg",
+   "pid": "1005008248122261",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-05-ima-2.webp"
   },
   {
    "id": "2026-11-05-ima-3",
@@ -154,7 +189,9 @@
    "why": "98% ביקורות חיוביות, יותר מ-1,700 נמכרו",
    "warn": "יש 3 אפשרויות, 46 ₪ זו הזולה. חלקים קטנים, לא לילדים מתחת לגיל 3.",
    "link": "https://s.click.aliexpress.com/e/_c4EmLqLV",
-   "img": "https://shavelaima.com/deals/img/2026-11-05-ima-3.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-05-ima-3.jpg",
+   "pid": "1005006994454937",
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-05-ima-3.webp"
   },
   {
    "id": "2026-11-04-ima-1",
@@ -171,7 +208,9 @@
    "why": "דירוג 4.6, יותר מ-10,000 נמכרו",
    "warn": "דגם בסיסי ושקט לשאיבה מזדמנת. לא תחליף למשאבה רפואית.",
    "link": "https://s.click.aliexpress.com/e/_c3fi8bQP",
-   "img": "https://shavelaima.com/deals/img/2026-11-04-ima-1.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-04-ima-1.jpg",
+   "pid": null,
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-04-ima-1.webp"
   },
   {
    "id": "2026-11-04-ima-2",
@@ -188,7 +227,9 @@
    "why": "דירוג 4.9, נבחר בבסטסלרים של 11.11",
    "warn": "103 ביקורות בלבד, לבדוק מידות בתמונות לפני שקונים.",
    "link": "https://s.click.aliexpress.com/e/_c3SnXHOP",
-   "img": "https://shavelaima.com/deals/img/2026-11-04-ima-2.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-04-ima-2.jpg",
+   "pid": null,
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-04-ima-2.webp"
   },
   {
    "id": "2026-11-04-ima-3",
@@ -205,7 +246,9 @@
    "why": "דירוג 4.9, יותר מ-10,000 נמכרו",
    "warn": "לילדים גדולים, לא לפעוטות. סוללה נטענת מובנית.",
    "link": "https://s.click.aliexpress.com/e/_c4Ni88Kj",
-   "img": "https://shavelaima.com/deals/img/2026-11-04-ima-3.jpg"
+   "img": "https://shavelaima.com/deals/img/2026-11-04-ima-3.jpg",
+   "pid": null,
+   "thumb": "https://shavelaima.com/deals/img/sm/2026-11-04-ima-3.webp"
   }
  ]
 }

@@ -6,17 +6,31 @@
 <title>שווה לאמא | הצטרפות לקהילה</title>
 <meta name="robots" content="noindex">
 <meta name="description" content="דילים אונליין: המוצרים הכי שווים במחירים הכי טובים">
-<meta property="og:title" content="שווה לאמא">
-<meta property="og:image" content="../img/og.jpg">
+<link rel="canonical" href="https://shavelaima.com/join/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="שווה לאמא">
+<meta property="og:title" content="שווה לאמא | הצטרפות לקהילה">
+<meta property="og:description" content="דילים אונליין: המוצרים הכי שווים במחירים הכי טובים">
+<meta property="og:image" content="https://shavelaima.com/img/og-1200.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="שווה לאמא">
+<meta property="og:url" content="https://shavelaima.com/join/">
+<meta property="og:locale" content="he_IL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="שווה לאמא | הצטרפות לקהילה">
+<meta name="twitter:description" content="דילים אונליין: המוצרים הכי שווים במחירים הכי טובים">
+<meta name="twitter:image" content="https://shavelaima.com/img/og-1200.jpg">
 <meta name="theme-color" content="#FCBF04">
-<link rel="icon" href="../img/icon.png">
+<link rel="icon" href="../img/icon-64.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800;900&display=swap">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;800;900&display=swap"></noscript>
 <style>:root{--accent:#F14B2F;color-scheme:light}
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;font:400 17px/1.55 "Rubik",system-ui,sans-serif;direction:rtl;color:#161715;
- background:#000 url(../img/join-bg.jpg) center/cover no-repeat fixed}
+ background:#000}
+@media (min-width:561px){body{background:#000 url(../img/join-bg.jpg) center/cover no-repeat fixed}}
 body::before{content:"";position:fixed;inset:0;background:rgba(10,10,10,.45);pointer-events:none}
 .card{position:relative;max-width:560px;min-height:100%;margin:0 auto;background:#fff;
  padding:28px 24px calc(28px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px}
@@ -46,7 +60,22 @@ li svg{flex:none;width:22px;height:22px;margin-top:2px}
 .micro{margin:0;font-size:14px;color:#6a6a66}
 .legal{margin-top:auto;padding-top:10px;font-size:12px;color:#8a8a85;max-width:44ch}
 @media (prefers-reduced-motion:reduce){.go,.go::after,.go::before{animation:none}}
-</style>
+
+.ex{margin:10px auto 0;max-width:36ch;font-size:15px;line-height:1.45}
+.ex b{font-weight:800}.ex .ex-our{white-space:nowrap}
+.ex-d{display:block;font-size:12px;opacity:.75;margin-top:2px}
+
+.adeal{width:100%;max-width:420px;margin:12px auto 0;background:#fff;color:#161715;border-radius:16px;padding:10px 12px;
+ text-align:right;box-shadow:0 4px 16px rgba(0,0,0,.12)}
+.adeal-h{margin:0 0 6px;font:800 14px/1.2 "Rubik",sans-serif;color:#1fa855}
+.adeal-b{display:flex;gap:12px;align-items:center}
+.adeal img{width:88px;height:88px;border-radius:10px;flex:none;object-fit:cover;background:#eee}
+.adeal-t{display:grid;gap:2px;font-size:14px;line-height:1.35;min-width:0}
+.adeal-t b{font:800 15px/1.3 "Rubik",sans-serif}
+.adeal-t .our{font-weight:800}
+.adeal-t small{font-size:11px;color:#6a6a66}
+.has-deal .logo{width:96px;height:96px}
+.card .ex{margin:-4px 0 0}</style>
 <script>(function(){var v,q=location.search.match(/[?&]v=(a|b)/i);try{v=localStorage.getItem('jv')}catch(e){}
 v=q?q[1].toUpperCase():'B';try{localStorage.setItem('jv',v)}catch(e){}
 if(v==='B'){window.__goB=1;location.replace('../join-b/'+location.search+location.hash)}})();</script>
@@ -63,14 +92,30 @@ var h=a.getAttribute('href');if(!h||h.charAt(0)==='#'||ev.metaKey||ev.ctrlKey)re
 </head>
 <body>
 <main class="card">
-  <img class="logo" src="../img/logo.png" alt="שווה לאמא" width="150" height="150">
+  <img class="logo" src="../img/logo-300.webp" alt="שווה לאמא" width="150" height="150" fetchpriority="high">
+  <div id="adeal-slot" style="display:contents"></div>
   <h1>מחפשת מוצרים לך, לתינוק ולילדים במחיר של חו״ל?</h1>
+  <p class="ex" id="ex"><b>מגבת קפוצ׳ון לתינוק:</b> מוצר דומה בארץ מ-68 ₪, <span class="ex-our">הדיל שלנו <b>20 ₪</b></span><span class="ex-d">פורסם בקבוצה ב-8.11.2026, המחיר נכון ליום הפרסום</span></p>
   <p class="lead">הצטרפי ל<b>שווה לאמא</b>, קהילת וואטסאפ שקטה עם הדילים הכי שווים אונליין.</p>
   <p class="find">בקהילה תמצאי:</p>
   <ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="var(--accent)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>מוצרים לאמא: היריון, הנקה וטיפוח</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="var(--accent)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>ציוד לתינוק: עגלות, מנשאים, מוניטורים</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="var(--accent)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>בגדים, צעצועים ומשחקים לילדים</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="var(--accent)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>ליד כל דיל: המחיר בארץ מול הדיל שלנו</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="var(--accent)"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>קופונים ומבצעים חמים, בלי לחפש</span></li></ul>
-  <p class="quiet">🔇 קבוצה שקטה – בלי חפירות. רק דילים והמלצות.</p>
+  <p class="quiet">🔇 קבוצה שקטה, בלי חפירות. רק דילים והמלצות.</p>
   <a class="go" href="https://chat.whatsapp.com/DiWkfT10aMA1jx6AGPUe32" rel="noopener" data-join><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.5-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.6c.2.2 2.4 3.7 5.8 5.2 2.2.9 3 1 4.1.8.7-.1 1.9-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.1-.3-.2-.6-.3z"/></svg><span>הצטרפי לקהילה</span></a>
   <p class="micro">בחינם · אפשר לצאת בכל רגע</p>
 </main>
+<script>(function(){var m=location.search.match(/[?&]deal=([^&#]+)/);if(!m||!window.fetch)return;
+var k=decodeURIComponent(m[1]).trim(),at=document.getElementById('adeal-slot');if(!k||!at)return;
+fetch('/deals/feed.json').then(function(r){return r.json()}).then(function(f){
+var d=(f.deals||[]).filter(function(x){return x.id===k||x.pid===k||x.id==='il-'+k})[0];if(!d)return;
+function el(t,c,x){var n=document.createElement(t);if(c)n.className=c;if(x!=null)n.textContent=x;return n}
+var s=el('section','adeal'),b=el('div','adeal-b'),t=el('div','adeal-t'),i=new Image(88,88);
+s.appendChild(el('p','adeal-h','הדיל שראית במודעה'));
+i.alt=d.name;i.src=d.thumb||d.img;i.onerror=function(){if(d.img&&i.src!==d.img)i.src=d.img};
+t.appendChild(el('b',null,d.name));if(d.il_text)t.appendChild(el('span',null,d.il_text));
+var o=el('span','our','הדיל שלנו: '+(+d.ali).toLocaleString('he-IL')+' ₪');t.appendChild(o);
+var dt=d.date?d.date.split('-'):null;t.appendChild(el('small',null,(dt?'פורסם בקבוצה '+(+dt[2])+'.'+(+dt[1])+'.'+dt[0]+'. ':'')+(d.ali_note||'')));
+if(d.img||d.thumb)b.appendChild(i);b.appendChild(t);s.appendChild(b);at.appendChild(s);
+var ex=document.getElementById('ex');if(ex)ex.hidden=true;document.body.classList.add('has-deal');
+}).catch(function(){})})();</script>
 </body>
 </html>
